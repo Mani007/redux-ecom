@@ -85,3 +85,5 @@ git remote add origin https://github.com/Mani007/redux-ecom.git
 git branch -M main
 git push -u origin main
 ```
+### Redux toolkit applied
+here are the files you need to create and edit for the code of redux toolkit in ecom wesite. 
