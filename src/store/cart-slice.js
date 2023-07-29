@@ -28,8 +28,11 @@ const cartSlice = createSlice({
         removeFromCart(state,action){
 
         },
-        showCart(state){
-            state.showCart = true;
+        setShowCart(state){
+            if (state.totalQuantity != 0){
+                state.showCart = true;
+            }
+            
         },
     }
 })
